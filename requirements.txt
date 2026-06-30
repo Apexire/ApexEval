@@ -1,0 +1,9 @@
+streamlit>=1.35.0
+python-docx>=1.1.2
+pypdf>=5.0.0
+pdfplumber>=0.11.0
+Pillow>=10.3.0
+openai>=1.30.0
+pandas>=2.0.0
+python-dotenv>=1.0.1
+# reportlab>=4.0.0  # optional for future PDF export
