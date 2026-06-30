@@ -7,3 +7,4 @@ openai>=1.30.0
 pandas>=2.0.0
 python-dotenv>=1.0.1
 # reportlab>=4.0.0  # optional for future PDF export
+matplotlib>=3.8.0
