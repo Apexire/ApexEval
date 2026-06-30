@@ -771,11 +771,7 @@ def main():
         
         import pandas as pd
         df = pd.DataFrame(summary_data)
-        st.dataframe(
-            df.style.background_gradient(subset=["Overall Score", "Min Req", "Desirable", "Relevance"], cmap="RdYlGn", vmin=40, vmax=100),
-            use_container_width=True,
-            hide_index=True
-        )
+        st.dataframe(df, use_container_width=True, hide_index=True)
         
         st.divider()
         
